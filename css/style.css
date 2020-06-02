@@ -1,4 +1,7 @@
 *, *:before, *:after { box-sizing: border-box; }
+html, body {
+    background-color: #fff;
+}
 textarea {
     border: 1px solid #000;
     display: inline-block;
@@ -9,8 +12,8 @@ textarea {
     line-height: 1.6;
     font-size: 105%;
     display: block;
-    color: white;
-    background-color: black;
+    color: #fff;
+    background-color: #000;
     resize: none;
 }
 img {
